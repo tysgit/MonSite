@@ -1,0 +1,54 @@
+<html>
+<meta content="text/html; charset=UTF-8"/>
+<body style="background-color:#D8D8D8";>
+<head>
+  <title>FORMULAIRE</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<header>
+
+</header>
+<body>
+  <form>
+    <div>
+      <table>
+        <label>NOM              :</label>
+        <input type="text" maxlength="10" placeholder="votre nom"/></br></br>
+        <label>PRENOM           :</label>
+        <input type="text" maxlength="10" placeholder="votre prenom"/></br></br>
+        <label>TELEPHONE        :</label>
+        <input type="tel"  maxlength="10" placeholder="telephone"/></br></br>
+        <label for "born">DATE DE NAISSANCE:</label>
+        <input type="date" id="born"></br></br>
+        <label>COULEUR PREFEREE:</label>
+        <input list="COULEUR PREFEREE" />
+          <datalist id="COULEUR PREFEREE">
+            <option value="Jaune">
+            <option value="Rouge">
+            <option value="Bleu">
+            <option value="Vert">
+            <option value="Blanc">
+          </datalist>
+        </br></br>
+        <label>NewsLettter      :</label>
+        <label>Oui</label>
+        <input type="radio" name="NewsLettter"/>
+        <label>Non</label>
+        <input type="radio" name="NewsLettter"/>
+        </br></br>
+        <label>PHOTO PROFIL</label>
+        <input type="file"accept=".png, .jpg, .jpeg"/>
+        </br></br>
+        <label>COMMENTAIRE</label></br>
+        <textarea rows="5" cols="30">Ecrivez qqchose</textarea>
+        </br></br>
+        <button>VALIDER</button>
+      </table>
+    </div>
+  </form>
+
+<footer>
+
+</footer>
+</body>
+</html>
